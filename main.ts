@@ -42,6 +42,13 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Chessboard)
     basic.pause(1000)
     basic.clearScreen()
+    basic.showLeds(`
+        . # # # .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
@@ -87,6 +94,13 @@ input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Square)
     basic.pause(1000)
     basic.clearScreen()
+    basic.showLeds(`
+        . # # # .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 basic.showLeds(`
     . # # # .
